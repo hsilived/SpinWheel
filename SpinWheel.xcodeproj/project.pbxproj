@@ -7,27 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6329B1702079B93600178235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6329B16F2079B93600178235 /* AppDelegate.swift */; };
-		6329B1722079B93600178235 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6329B1712079B93600178235 /* GameScene.sks */; };
-		6329B1742079B93600178235 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6329B1732079B93600178235 /* Actions.sks */; };
 		6329B1762079B93600178235 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6329B1752079B93600178235 /* GameScene.swift */; };
 		6329B1782079B93600178235 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6329B1772079B93600178235 /* GameViewController.swift */; };
-		6329B17B2079B93600178235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6329B1792079B93600178235 /* Main.storyboard */; };
-		6329B17D2079B93600178235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6329B17C2079B93600178235 /* Assets.xcassets */; };
-		6329B1802079B93600178235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6329B17E2079B93600178235 /* LaunchScreen.storyboard */; };
+		6329B18F2079B9D200178235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6329B1882079B9D200178235 /* Assets.xcassets */; };
+		6329B1902079B9D200178235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6329B1892079B9D200178235 /* LaunchScreen.storyboard */; };
+		6329B1912079B9D200178235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6329B18B2079B9D200178235 /* Main.storyboard */; };
+		6329B1922079B9D200178235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6329B18D2079B9D200178235 /* AppDelegate.swift */; };
+		6329B1972079B9E700178235 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6329B1952079B9E700178235 /* GameScene.sks */; };
+		6329B1A02079BAEE00178235 /* SpinWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6329B19F2079BAEE00178235 /* SpinWheel.swift */; };
+		6329B1A22079BB4D00178235 /* Game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6329B1A12079BB4D00178235 /* Game.xcassets */; };
+		6329B1A52079BFA100178235 /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6329B1A42079BFA100178235 /* CGFloat+Extensions.swift */; };
+		6329B1A72079C0E700178235 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6329B1A62079C0E700178235 /* Settings.swift */; };
+		6329B1A92079C11700178235 /* gomarice_okuba_cloud.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6329B1A82079C11700178235 /* gomarice_okuba_cloud.ttf */; };
+		63484CC4207A7E22006234A0 /* PushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63484CC3207A7E21006234A0 /* PushButton.swift */; };
+		63D0254C207AA2F800F265A3 /* sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D0254A207AA2F800F265A3 /* sparkle.png */; };
+		63D0254D207AA2F800F265A3 /* SparkleBlast.sks in Resources */ = {isa = PBXBuildFile; fileRef = 63D0254B207AA2F800F265A3 /* SparkleBlast.sks */; };
+		63D02555207AA30A00F265A3 /* error.aac in Resources */ = {isa = PBXBuildFile; fileRef = 63D0254E207AA30600F265A3 /* error.aac */; };
+		63D02558207AA30B00F265A3 /* victory.aac in Resources */ = {isa = PBXBuildFile; fileRef = 63D02551207AA30700F265A3 /* victory.aac */; };
+		63D0255A207AA30B00F265A3 /* bubble_pop.aac in Resources */ = {isa = PBXBuildFile; fileRef = 63D02553207AA30900F265A3 /* bubble_pop.aac */; };
+		63D0255B207AA30B00F265A3 /* woosh.aac in Resources */ = {isa = PBXBuildFile; fileRef = 63D02554207AA30A00F265A3 /* woosh.aac */; };
+		63D0255D207AE29B00F265A3 /* Context Rounded Black SSi Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63D0255C207AE29B00F265A3 /* Context Rounded Black SSi Black.ttf */; };
+		63D0256F207C272E00F265A3 /* prize_wheel.gif in Resources */ = {isa = PBXBuildFile; fileRef = 63D0256C207C272D00F265A3 /* prize_wheel.gif */; };
+		63D02570207C272E00F265A3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 63D0256D207C272D00F265A3 /* LICENSE */; };
+		63D02571207C272E00F265A3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 63D0256E207C272D00F265A3 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6329B16C2079B93600178235 /* SpinWheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpinWheel.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6329B16F2079B93600178235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6329B1712079B93600178235 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		6329B1732079B93600178235 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		6329B1752079B93600178235 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		6329B1772079B93600178235 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		6329B17A2079B93600178235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6329B17C2079B93600178235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6329B17F2079B93600178235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6329B1812079B93600178235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6329B1882079B9D200178235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6329B18A2079B9D200178235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6329B18C2079B9D200178235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6329B18D2079B9D200178235 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6329B18E2079B9D200178235 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6329B1952079B9E700178235 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		6329B19F2079BAEE00178235 /* SpinWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinWheel.swift; sourceTree = "<group>"; };
+		6329B1A12079BB4D00178235 /* Game.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Game.xcassets; sourceTree = "<group>"; };
+		6329B1A42079BFA100178235 /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		6329B1A62079C0E700178235 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		6329B1A82079C11700178235 /* gomarice_okuba_cloud.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = gomarice_okuba_cloud.ttf; sourceTree = "<group>"; };
+		63484CC3207A7E21006234A0 /* PushButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushButton.swift; sourceTree = "<group>"; };
+		63D0254A207AA2F800F265A3 /* sparkle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sparkle.png; sourceTree = "<group>"; };
+		63D0254B207AA2F800F265A3 /* SparkleBlast.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SparkleBlast.sks; sourceTree = "<group>"; };
+		63D0254E207AA30600F265A3 /* error.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = error.aac; sourceTree = "<group>"; };
+		63D02551207AA30700F265A3 /* victory.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = victory.aac; sourceTree = "<group>"; };
+		63D02553207AA30900F265A3 /* bubble_pop.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = bubble_pop.aac; sourceTree = "<group>"; };
+		63D02554207AA30A00F265A3 /* woosh.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = woosh.aac; sourceTree = "<group>"; };
+		63D0255C207AE29B00F265A3 /* Context Rounded Black SSi Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Context Rounded Black SSi Black.ttf"; sourceTree = "<group>"; };
+		63D0256C207C272D00F265A3 /* prize_wheel.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = prize_wheel.gif; sourceTree = "<group>"; };
+		63D0256D207C272D00F265A3 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		63D0256E207C272D00F265A3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +74,7 @@
 		6329B1632079B93600178235 = {
 			isa = PBXGroup;
 			children = (
+				63D0256B207C272D00F265A3 /* Documentation */,
 				6329B16E2079B93600178235 /* SpinWheel */,
 				6329B16D2079B93600178235 /* Products */,
 			);
@@ -60,17 +91,111 @@
 		6329B16E2079B93600178235 /* SpinWheel */ = {
 			isa = PBXGroup;
 			children = (
-				6329B16F2079B93600178235 /* AppDelegate.swift */,
-				6329B1712079B93600178235 /* GameScene.sks */,
-				6329B1732079B93600178235 /* Actions.sks */,
+				6329B1992079BA0100178235 /* Resources */,
+				6329B1A32079BFA100178235 /* Utils */,
+				6329B19D2079BA7D00178235 /* Objects */,
+				6329B1942079B9E700178235 /* Scenes */,
 				6329B1752079B93600178235 /* GameScene.swift */,
 				6329B1772079B93600178235 /* GameViewController.swift */,
-				6329B1792079B93600178235 /* Main.storyboard */,
-				6329B17C2079B93600178235 /* Assets.xcassets */,
-				6329B17E2079B93600178235 /* LaunchScreen.storyboard */,
-				6329B1812079B93600178235 /* Info.plist */,
+				6329B1872079B9D200178235 /* Supporting Files */,
 			);
 			path = SpinWheel;
+			sourceTree = "<group>";
+		};
+		6329B1872079B9D200178235 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6329B1882079B9D200178235 /* Assets.xcassets */,
+				6329B1892079B9D200178235 /* LaunchScreen.storyboard */,
+				6329B18B2079B9D200178235 /* Main.storyboard */,
+				6329B18D2079B9D200178235 /* AppDelegate.swift */,
+				6329B18E2079B9D200178235 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6329B1942079B9E700178235 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				6329B1952079B9E700178235 /* GameScene.sks */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		6329B1992079BA0100178235 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6329B19A2079BA0100178235 /* Particles */,
+				6329B19B2079BA0100178235 /* Sounds */,
+				6329B19C2079BA0100178235 /* Fonts */,
+				6329B1A12079BB4D00178235 /* Game.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6329B19A2079BA0100178235 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				63D0254A207AA2F800F265A3 /* sparkle.png */,
+				63D0254B207AA2F800F265A3 /* SparkleBlast.sks */,
+			);
+			path = Particles;
+			sourceTree = "<group>";
+		};
+		6329B19B2079BA0100178235 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				63D02553207AA30900F265A3 /* bubble_pop.aac */,
+				63D0254E207AA30600F265A3 /* error.aac */,
+				63D02551207AA30700F265A3 /* victory.aac */,
+				63D02554207AA30A00F265A3 /* woosh.aac */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		6329B19C2079BA0100178235 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				63D0255C207AE29B00F265A3 /* Context Rounded Black SSi Black.ttf */,
+				6329B1A82079C11700178235 /* gomarice_okuba_cloud.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		6329B19D2079BA7D00178235 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				6329B19E2079BA7D00178235 /* Scenes */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		6329B19E2079BA7D00178235 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				6329B19F2079BAEE00178235 /* SpinWheel.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		6329B1A32079BFA100178235 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6329B1A42079BFA100178235 /* CGFloat+Extensions.swift */,
+				6329B1A62079C0E700178235 /* Settings.swift */,
+				63484CC3207A7E21006234A0 /* PushButton.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		63D0256B207C272D00F265A3 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				63D0256C207C272D00F265A3 /* prize_wheel.gif */,
+				63D0256D207C272D00F265A3 /* LICENSE */,
+				63D0256E207C272D00F265A3 /* README.md */,
+			);
+			path = Documentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,11 +257,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6329B17B2079B93600178235 /* Main.storyboard in Resources */,
-				6329B1722079B93600178235 /* GameScene.sks in Resources */,
-				6329B17D2079B93600178235 /* Assets.xcassets in Resources */,
-				6329B1802079B93600178235 /* LaunchScreen.storyboard in Resources */,
-				6329B1742079B93600178235 /* Actions.sks in Resources */,
+				63D02558207AA30B00F265A3 /* victory.aac in Resources */,
+				63D0256F207C272E00F265A3 /* prize_wheel.gif in Resources */,
+				63D0254C207AA2F800F265A3 /* sparkle.png in Resources */,
+				6329B1A92079C11700178235 /* gomarice_okuba_cloud.ttf in Resources */,
+				6329B1912079B9D200178235 /* Main.storyboard in Resources */,
+				6329B1972079B9E700178235 /* GameScene.sks in Resources */,
+				6329B1902079B9D200178235 /* LaunchScreen.storyboard in Resources */,
+				63D02555207AA30A00F265A3 /* error.aac in Resources */,
+				63D0255D207AE29B00F265A3 /* Context Rounded Black SSi Black.ttf in Resources */,
+				63D02570207C272E00F265A3 /* LICENSE in Resources */,
+				63D02571207C272E00F265A3 /* README.md in Resources */,
+				6329B18F2079B9D200178235 /* Assets.xcassets in Resources */,
+				63D0255B207AA30B00F265A3 /* woosh.aac in Resources */,
+				63D0255A207AA30B00F265A3 /* bubble_pop.aac in Resources */,
+				63D0254D207AA2F800F265A3 /* SparkleBlast.sks in Resources */,
+				6329B1A22079BB4D00178235 /* Game.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,29 +283,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63484CC4207A7E22006234A0 /* PushButton.swift in Sources */,
+				6329B1A72079C0E700178235 /* Settings.swift in Sources */,
+				6329B1922079B9D200178235 /* AppDelegate.swift in Sources */,
+				6329B1A52079BFA100178235 /* CGFloat+Extensions.swift in Sources */,
+				6329B1A02079BAEE00178235 /* SpinWheel.swift in Sources */,
 				6329B1762079B93600178235 /* GameScene.swift in Sources */,
 				6329B1782079B93600178235 /* GameViewController.swift in Sources */,
-				6329B1702079B93600178235 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6329B1792079B93600178235 /* Main.storyboard */ = {
+		6329B1892079B9D200178235 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6329B17A2079B93600178235 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6329B17E2079B93600178235 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6329B17F2079B93600178235 /* Base */,
+				6329B18A2079B9D200178235 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6329B18B2079B9D200178235 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6329B18C2079B9D200178235 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -288,7 +428,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LU8XR8Y9JS;
-				INFOPLIST_FILE = SpinWheel/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SpinWheel/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.orangethinkbox.SpinWheel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -303,7 +443,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LU8XR8Y9JS;
-				INFOPLIST_FILE = SpinWheel/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SpinWheel/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.orangethinkbox.SpinWheel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
