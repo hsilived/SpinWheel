@@ -29,7 +29,6 @@
 		63D0255D207AE29B00F265A3 /* Context Rounded Black SSi Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63D0255C207AE29B00F265A3 /* Context Rounded Black SSi Black.ttf */; };
 		63D0256F207C272E00F265A3 /* prize_wheel.gif in Resources */ = {isa = PBXBuildFile; fileRef = 63D0256C207C272D00F265A3 /* prize_wheel.gif */; };
 		63D02570207C272E00F265A3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 63D0256D207C272D00F265A3 /* LICENSE */; };
-		63D02571207C272E00F265A3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 63D0256E207C272D00F265A3 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,7 +56,6 @@
 		63D0255C207AE29B00F265A3 /* Context Rounded Black SSi Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Context Rounded Black SSi Black.ttf"; sourceTree = "<group>"; };
 		63D0256C207C272D00F265A3 /* prize_wheel.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = prize_wheel.gif; sourceTree = "<group>"; };
 		63D0256D207C272D00F265A3 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		63D0256E207C272D00F265A3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +191,6 @@
 			children = (
 				63D0256C207C272D00F265A3 /* prize_wheel.gif */,
 				63D0256D207C272D00F265A3 /* LICENSE */,
-				63D0256E207C272D00F265A3 /* README.md */,
 			);
 			path = Documentation;
 			sourceTree = "<group>";
@@ -267,7 +264,6 @@
 				63D02555207AA30A00F265A3 /* error.aac in Resources */,
 				63D0255D207AE29B00F265A3 /* Context Rounded Black SSi Black.ttf in Resources */,
 				63D02570207C272E00F265A3 /* LICENSE in Resources */,
-				63D02571207C272E00F265A3 /* README.md in Resources */,
 				6329B18F2079B9D200178235 /* Assets.xcassets in Resources */,
 				63D0255B207AA30B00F265A3 /* woosh.aac in Resources */,
 				63D0255A207AA30B00F265A3 /* bubble_pop.aac in Resources */,
