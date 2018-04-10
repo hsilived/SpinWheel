@@ -8,7 +8,7 @@ SpriteKit Prize Wheel is a physics based spinning prize wheel with a real moving
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/hsilived/SpinWheel/blob/master/Documentation/LICENSE)
 [![Twitter](https://img.shields.io/badge/twitter-@OrangeThinkBox-55ACEE.svg)](http://twitter.com/orangethinkbox)
 
-## SKControlSprite Install Instructions
+## SpinWheel Install Instructions
 
 copy the SpinWheel folder into your project
 
